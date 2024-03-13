@@ -6,14 +6,11 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint —dir src/app ",
-    "lint:fix": "next lint --fix —dir src/app ",
-    "prettier": "prettier --write —dir src/app",
+    "lint": "next lint --dir src/app",
+    "lint:fix": "next lint --fix --dir src/app",
+    "prettier": "prettier --write './**/*.{js,jsx,ts,tsx,json}'",
     "markuplint": "markuplint \"./**/*.tsx\"",
     "prepare": "husky"
-  },
-  "lint-staged": {
-    "*.{ts,tsx}": "prettier --write src/app && next lint --fix —dir src/app && markuplint \"./**/*.tsx\""
   },
   "dependencies": {
     "next": "14.1.3",
