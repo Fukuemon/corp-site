@@ -1,3 +1,35 @@
 {
-  "extends": "next/core-web-vitals"
+  "extends": [
+    "eslint:recommended",
+    "plugin:@typescript-eslint/recommended-type-checked",
+    "next/core-web-vitals",
+    "plugin:tailwindcss/recommended",
+    "prettier"
+  ],
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "project": "./tsconfig.json"
+  },
+  "plugins": ["unused-imports"],
+  "rules": {
+    "unused-imports/no-unused-imports": "error", // 未使用のimportを削除
+    "react/jsx-sort-props": "error", // propsの自動ソート
+    "import/order": [
+      // importの順序を整理
+      "error",
+      {
+        "groups": [
+          "builtin", // Node.jsの組み込みモジュール
+          "external", // node_modulesからのインポート
+          "internal", // 同じパッケージ内の他のモジュールからのインポート
+          "parent", // 現在のディレクトリの親ディレクトリからのインポート
+          "sibling", // 同じディレクトリ内の他のモジュールからのインポート
+          "index", // 現在のディレクトリのインデックスファイルからのインポート
+          "object", // オブジェクトのインポート
+          "type" // TypeScriptの型のインポート
+        ],
+        "newlines-between": "always"
+      }
+    ]
+  }
 }
