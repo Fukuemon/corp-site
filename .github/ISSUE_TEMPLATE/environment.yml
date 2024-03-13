@@ -7,13 +7,7 @@ body:
     attributes:
       label: 概要
       description: 環境構築の概要を記載してください
-      required: true
-  - type: input
-    id: done
-    attributes:
-      label: 完了予定日
-      description: 新機能の開発完了予定日を記載してください
-      type: date
+    validations:
       required: true
   - type: textarea
     id: todo
@@ -23,8 +17,8 @@ body:
       value: |
         - [ ]
         - [ ]
-      validation:
-        required: true
+    validations:
+      required: true
   - type: textarea
     id: module
     attributes:
