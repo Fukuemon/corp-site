@@ -1,7 +1,6 @@
 changelog.config.js
 postcss.config.js
 changelog.config.js
-plopfile.mjs
 src/stories/*
 jest.config.js
 ```

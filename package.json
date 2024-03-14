@@ -13,7 +13,9 @@
     "prepare": "husky",
     "generate": "plop",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "build-storybook": "storybook build",
+    "test": "jest",
+    "test:watch": "jest --watch"
   },
   "dependencies": {
     "@types/jest": "^29.5.12",
