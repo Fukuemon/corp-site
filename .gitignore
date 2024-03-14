@@ -37,3 +37,7 @@ next-env.d.ts
 
 # git-cz
 changelog.config.js
+
+*storybook.log
+
+src/stories/*

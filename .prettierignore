@@ -2,3 +2,6 @@
 changelog.config.js
 .lintstagedrc.js
 .github/*
+plop-templates/*
+src/stories/*
+```
