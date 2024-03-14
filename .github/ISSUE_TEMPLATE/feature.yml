@@ -32,8 +32,8 @@ body:
       label: 追加するモジュール
       description: 開発で追加するモジュールを記載してください
       value: |
-        -
-        -
+        - 
+        - 
   - type: textarea
     id: note
     attributes:

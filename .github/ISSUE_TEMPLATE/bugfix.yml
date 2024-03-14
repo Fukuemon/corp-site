@@ -1,6 +1,6 @@
 name: バグ改善
 description: 不具合の改善に関するテンプレートです。
-title: 'bugfix: '
+title: '🐛 bugfix: '
 body:
   - type: textarea
     id: overview
