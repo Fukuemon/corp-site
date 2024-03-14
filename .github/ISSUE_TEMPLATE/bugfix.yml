@@ -1,0 +1,36 @@
+name: バグ改善
+description: 不具合の改善に関するテンプレートです。
+title: 'bugfix: '
+body:
+  - type: textarea
+    id: overview
+    attributes:
+      label: 概要
+      description: |
+        不具合の概要を記載してください。
+        見た目に関係する場合は、スクリーンショット等を貼り付けてください。
+    validations:
+      required: true
+  - type: textarea
+    id: process
+    attributes:
+      label: 改善案
+      description: 不具合を改善するための方法を記載してください。
+      value: |
+        - 
+        - 
+    validations:
+      required: true
+  - type: textarea
+    id: supplement
+    attributes:
+      label: 備考
+      description: |
+        その他、参考情報や備考事項があれば記載してください。
+        例: 関連するIssue番号、関連するPR番号
+  - type: textarea
+    id: reference
+    attributes:
+      label: 参考情報
+      description: |
+        不具合の改善に関する参考情報があれば記載してください。
