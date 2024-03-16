@@ -7,5 +7,12 @@
   },
   "extends": [
     "markuplint:recommended-react"
-  ]
+  ],
+  "overrides": {
+    "src/stories/*": {
+      "rules": {
+        "any-rule": false
+      }
+    }
+  }
 }

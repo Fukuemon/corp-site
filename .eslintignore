@@ -1,4 +1,6 @@
 changelog.config.js
 postcss.config.js
 changelog.config.js
+src/stories/*
+jest.config.js
 ```
