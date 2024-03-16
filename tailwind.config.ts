@@ -13,6 +13,10 @@ const config = {
       }
     },
     extend: {
+      fontFamily: {
+        ZenKakuGothicAnitique: ['var(--font-ZenKakuGothicAnitique)'],
+        ZenOldMincho: ['var(--font-ZenOldMincho)']
+      },
       colors: {
         nav: 'hsla(var(--nav))',
         border: 'hsla(var(--border))',
