@@ -13,6 +13,12 @@ const config = {
       }
     },
     extend: {
+      fontSize: {
+        mini: '12px',
+        base: '16px',
+        lg: '32px',
+        xl: '64px'
+      },
       fontFamily: {
         ZenKakuGothicAnitique: ['var(--font-ZenKakuGothicAnitique)'],
         ZenOldMincho: ['var(--font-ZenOldMincho)']
