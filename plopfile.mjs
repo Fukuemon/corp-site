@@ -135,7 +135,7 @@ export default function (plop) {
     prompts: [
       {
         type: 'list',
-        name: 'page',
+        name: 'choice',
         message: 'どこに作成しますか？',
         choices: choices
       },
@@ -148,22 +148,22 @@ export default function (plop) {
     actions: [
       {
         type: 'add',
-        path: 'src/app/{{kebabCase page}}/_components/{{pascalCase name}}/{{pascalCase name}}Container.tsx',
+        path: 'src/app/_components/{{choice}}/{{pascalCase name}}/{{pascalCase name}}Container.tsx',
         templateFile: 'plop-templates/components/container-presenter/container.tsx.hbs'
       },
       {
         type: 'add',
-        path: 'src/app/{{kebabCase page}}/_components/{{pascalCase name}}/{{pascalCase name}}Presenter.tsx',
+        path: 'src/app/_components/{{choice}}/{{pascalCase name}}/{{pascalCase name}}Presenter.tsx',
         templateFile: 'plop-templates/components/container-presenter/presenter.tsx.hbs'
       },
       {
         type: 'add',
-        path: 'src/app/{{kebabCase page}}/_components/{{pascalCase name}}/{{pascalCase name}}.test.tsx',
+        path: 'src/app/_components/{{choice}}/{{pascalCase name}}/{{pascalCase name}}.test.tsx',
         templateFile: 'plop-templates/components/container-presenter/test.tsx.hbs'
       },
       {
         type: 'add',
-        path: 'src/app/{{kebabCase page}}/_components/{{pascalCase name}}/{{pascalCase name}}.stories.tsx',
+        path: 'src/app/_components/{{choice}}/{{pascalCase name}}/{{pascalCase name}}.stories.tsx',
         templateFile: 'plop-templates/components/container-presenter/stories.tsx.hbs'
       }
     ]
