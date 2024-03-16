@@ -1,9 +1,8 @@
-import { Inter } from 'next/font/google'
+import { ZenOldMincho, ZenKakuGothicAnitique } from '@/styles/font'
 
 import type { Metadata } from 'next'
-import './globals.css'
 
-const inter = Inter({ subsets: ['latin'] })
+import '@/styles/tailwind.css'
 
 export const metadata: Metadata = {
   title: 'Create Next App',
@@ -17,7 +16,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={`${ZenOldMincho.variable} ${ZenKakuGothicAnitique.variable}`}>{children}</body>
     </html>
   )
 }

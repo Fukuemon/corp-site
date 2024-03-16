@@ -135,7 +135,7 @@ export default function (plop) {
     prompts: [
       {
         type: 'list',
-        name: 'path',
+        name: 'page',
         message: 'どこに作成しますか？',
         choices: choices
       },
