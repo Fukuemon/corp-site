@@ -1,16 +1,12 @@
 //  NavigationBar:ナビゲーションバー
 export const COMPANY_NAME = '有限会社フクウラ'
 export const SITE_SECTIONS = {
-  SERVICE: 'サービス',
-  SUPPLIERS: '取引先',
-  PRODUCTS: '製品',
+  SERVICE: '営業内容',
+  SUPPLIERS: '取引先メーカー',
+  PRODUCTS: '製品カテゴリ',
   COMPANY: '会社概要'
 }
 export const CONTACT = 'お問い合わせ'
-
-// Catchphrase: キャッチフレーズ
-export const MANAGEMENT_PHILOSOPHY = '「創意」と「誠意」で 心身奉仕'
-export const MANAGEMENT_PHILOSOPHY_DETAIL = '機能工具と関連機器の販売から加工、制作まで幅広く扱います'
 
 // Services：営業内容
 export const SERVICES = [
