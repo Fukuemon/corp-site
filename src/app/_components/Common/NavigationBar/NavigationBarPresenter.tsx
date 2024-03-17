@@ -18,7 +18,7 @@ export const NavigationBarPresenter: FC<NavigationBar> = (props) => {
           <h1 className="text-xl font-extrabold">{props.companyName}</h1>
         </Link>
         {/* 右サイド */}
-        <div className="flex items-center space-x-10">
+        <div className="flex items-center space-x-10 font-ZenKakuGothicAnitique">
           {props.rightTabs.map((tab, index) => (
             <Link className="text-base font-medium hover:text-gray-300" href={`#${tab}`} key={index}>
               {tab}
