@@ -1,3 +1,5 @@
+import { suppliers } from '@/constant/suppliers'
+
 import { SuppliersPresenter } from './SuppliersPresenter'
 
 import type { Meta, StoryObj } from '@storybook/react'
@@ -11,5 +13,5 @@ export default {
 type Story = StoryObj<T>
 
 export const Default: Story = {
-  args: {}
+  args: { displayData: suppliers }
 }

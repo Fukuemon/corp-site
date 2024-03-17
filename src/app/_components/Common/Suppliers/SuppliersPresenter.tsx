@@ -1,9 +1,18 @@
 import { FC } from 'react'
 
-type Props = {
-  suppliers: string
-}
+import { SupplierProps } from '@/constant/suppliers'
 
-export const SuppliersPresenter: FC<Props> = ({ suppliers }) => {
-  return <div>{suppliers}</div>
+import TabsContainer from '../Tabs/TabsContainer'
+import { GridData } from '../GridData/GridData'
+
+type SuppliersPresenterProps = {
+  displayData: SupplierProps[]
+}
+export const SuppliersPresenter: FC<SuppliersPresenterProps> = ({ displayData }) => {
+  return (
+    <div className="flex w-full flex-col">
+      <TabsContainer />
+      <GridData dataItems={displayData.map((supplier) => supplier.name)} />
+    </div>
+  )
 }
