@@ -13,6 +13,11 @@
       "rules": {
         "any-rule": false
       }
+    },
+    "src/components/ui/*": {
+      "rules": {
+        "any-rule": false
+      }
     }
   }
 }

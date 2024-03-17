@@ -8,26 +8,6 @@ export const SITE_SECTIONS = {
 }
 export const CONTACT = 'お問い合わせ'
 
-// Services：営業内容
-export const SERVICES = [
-  {
-    icon: '✏️',
-    content: '機械工具及び省力化機器\n伝動機器の販売'
-  },
-  {
-    icon: '🚚',
-    content: '物流、機送機器及び\n各種工場設備機器の販売'
-  },
-  {
-    icon: '⛴',
-    content: '各種機械加工及び\n板金・溶接加工'
-  },
-  {
-    icon: '🌐',
-    content: '各種ゴム製品加工及び\n樹脂成型加工'
-  }
-]
-
 // Suppliers: 取引先
 export const ALPHABETICAL_ORDER_TABS = [
   'All',
