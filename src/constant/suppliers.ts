@@ -247,12 +247,12 @@ export const suppliers: SupplierProps[] = [
     alphabetical: 'ま行'
   },
   {
-    name: '三浦工業株）',
+    name: '三浦工業（株）',
     category: 'ポンプ関連機器',
     alphabetical: 'ま行'
   },
   {
-    name: '兵神装備株）',
+    name: '兵神装備（株）',
     category: 'ポンプ関連機器',
     alphabetical: 'は行'
   },
