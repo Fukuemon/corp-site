@@ -24,40 +24,46 @@ const config = {
         ZenOldMincho: ['var(--font-ZenOldMincho)']
       },
       colors: {
-        nav: 'hsla(var(--nav))',
-        border: 'hsla(var(--border))',
-        input: 'hsla(var(--input))',
-        ring: 'hsla(var(--ring))',
-        background: 'hsla(var(--background))',
-        foreground: 'hsla(var(--foreground))',
+        'custom-blue': 'hsl(var(--custom-blue))',
+        'custom-gray': 'hsl(var(--custom-gray))',
+        nav: 'hsl(var(--nav))',
+        border: 'hsl(var(--border))',
+        input: 'hsl(var(--input))',
+        ring: 'hsl(var(--ring))',
+        background: 'hsl(var(--background))',
+        foreground: 'hsl(var(--foreground))',
+        gradient: 'hsl(var(--gradient))',
         primary: {
-          DEFAULT: 'hsla(var(--primary))',
-          foreground: 'hsla(var(--primary-foreground))'
+          DEFAULT: 'hsl(var(--primary))',
+          foreground: 'hsl(var(--primary-foreground))'
         },
         secondary: {
-          DEFAULT: 'hsla(var(--secondary))',
-          foreground: 'hsla(var(--secondary-foreground))'
+          DEFAULT: 'hsl(var(--secondary))',
+          foreground: 'hsl(var(--secondary-foreground))'
         },
         destructive: {
-          DEFAULT: 'hsla(var(--destructive))',
-          foreground: 'hsla(var(--destructive-foreground))'
+          DEFAULT: 'hsl(var(--destructive))',
+          foreground: 'hsl(var(--destructive-foreground))'
         },
         muted: {
-          DEFAULT: 'hsla(var(--muted))',
-          foreground: 'hsla(var(--muted-foreground))'
+          DEFAULT: 'hsl(var(--muted))',
+          foreground: 'hsl(var(--muted-foreground))'
         },
         accent: {
-          DEFAULT: 'hsla(var(--accent))',
-          foreground: 'hsla(var(--accent-foreground))'
+          DEFAULT: 'hsl(var(--accent))',
+          foreground: 'hsl(var(--accent-foreground))'
         },
         popover: {
-          DEFAULT: 'hsla(var(--popover))',
-          foreground: 'hsla(var(--popover-foreground))'
+          DEFAULT: 'hsl(var(--popover))',
+          foreground: 'hsl(var(--popover-foreground))'
         },
         card: {
-          DEFAULT: 'hsla(var(--card))',
-          foreground: 'hsla(var(--card-foreground))'
+          DEFAULT: 'hsl(var(--card))',
+          foreground: 'hsl(var(--card-foreground))'
         }
+      },
+      backgroundImage: {
+        'gradient-custom': 'linear-gradient(149deg, hsl(var(--custom-blue)) 32%, hsl(var(--custom-gray)) 100%)'
       },
       borderRadius: {
         lg: 'var(--radius)',
