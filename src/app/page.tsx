@@ -30,7 +30,7 @@ export default function Home() {
       <Header />
       <div className="flex w-full flex-col items-center justify-center px-40 py-8">
         {Sections.map((section, index) => (
-          <section className="flex w-full flex-col items-start justify-start py-4" key={index}>
+          <section className="flex w-full flex-col items-start justify-start py-4" id={section.name} key={index}>
             <h1 className="p-4 font-ZenKakuGothicAnitique text-lg font-bold">{section.name}</h1>
             {section.component}
           </section>

@@ -1,5 +1,7 @@
 import { ZenOldMincho, ZenKakuGothicAnitique } from '@/styles/font'
 
+import { NavigationBar } from './_components/Common/NavigationBar/NavigationBarContainer'
+
 import type { Metadata } from 'next'
 
 import '@/styles/tailwind.css'
@@ -16,7 +18,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${ZenOldMincho.variable} ${ZenKakuGothicAnitique.variable}`}>{children}</body>
+      <body className={`${ZenOldMincho.variable} ${ZenKakuGothicAnitique.variable}`}>
+        <NavigationBar />
+        {children}
+      </body>
     </html>
   )
 }
