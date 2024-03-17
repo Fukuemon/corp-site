@@ -1,14 +1,14 @@
 import { Header } from './_components/Common/Header/Header'
-import { ServiceContent } from './_components/Common/ServiceContent/ServiceContent'
 import { Suppliers } from './_components/Common/Suppliers/SuppliersContainer'
 import { Products } from './_components/Common/Products/ProductsContainer'
 import { CompanyProfile } from './_components/Common/CompanyProfile/CompanyProfile'
 import { Footer } from './_components/Common/Footer/Footer'
+import { ServiceContents } from './_components/Common/ServiceContents/ServiceContents'
 
 const Sections = [
   {
     name: '営業内容',
-    component: <ServiceContent />
+    component: <ServiceContents />
   },
   {
     name: '取引先メーカー',
@@ -31,7 +31,7 @@ export default function Home() {
       <div className="flex w-full flex-col items-center justify-center px-40 py-8">
         {Sections.map((section, index) => (
           <section className="flex w-full flex-col items-start justify-start py-4" id={section.name} key={index}>
-            <h1 className="p-4 font-ZenKakuGothicAnitique text-lg font-bold">{section.name}</h1>
+            <h1 className="p-4 font-ZenKakuGothicAnitique text-xl font-bold">{section.name}</h1>
             {section.component}
           </section>
         ))}

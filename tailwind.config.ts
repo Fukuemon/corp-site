@@ -14,10 +14,11 @@ const config = {
     },
     extend: {
       fontSize: {
-        mini: '12px',
+        sm: '12px',
         base: '16px',
-        lg: '32px',
-        xl: '64px'
+        lg: '24px',
+        xl: '32px',
+        '2xl': '64px'
       },
       fontFamily: {
         ZenKakuGothicAnitique: ['var(--font-ZenKakuGothicAnitique)'],

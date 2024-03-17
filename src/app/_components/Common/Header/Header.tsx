@@ -5,11 +5,11 @@ export const Header: FC = () => {
   return (
     <div className="h-[800px] w-full bg-gradient-custom">
       <div className="flex flex-col px-40 py-64">
-        <h1 className="text-start font-ZenOldMincho text-xl font-bold text-white">
-          「創意」<span className="text-lg">と</span>「誠意」<span className="pr-4 text-lg">で</span> <br />
+        <h1 className="text-start font-ZenOldMincho text-2xl font-bold text-white">
+          「創意」<span className="text-xl">と</span>「誠意」<span className="pr-4 text-xl">で</span> <br />
           <span className="pl-16">真心奉仕</span>
         </h1>
-        <h2 className="px-14  py-6 text-lg font-bold text-white">
+        <h2 className="px-14  py-6 text-xl font-bold text-white">
           機能工具と関連機器の販売から加工、
           <br />
           制作まで幅広く扱います
